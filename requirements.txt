@@ -1,0 +1,8 @@
+bs4=BeautifulSoup
+pandas
+numpy
+seaborn
+matplotlib
+plotply
+pycountry
+base64
