@@ -2,7 +2,6 @@ import streamlit as st
 import warnings
 warnings.filterwarnings("ignore")
 import requests
-from bs4 import BeautifulSoup
 import streamlit as st
 import pandas as pd
 import numpy as np
