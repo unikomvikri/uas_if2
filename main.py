@@ -4,6 +4,7 @@ warnings.filterwarnings("ignore")
 import requests
 import streamlit as st
 import pandas as pd
+from bs4 import BeautifulSoup
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -126,21 +127,6 @@ elif option == 'GIS':
 
 
 
-
-
-
-
-
-
-# st.title("Visualisasi 2")
-# #Visual 2
-# visual2 = plt.figure(figsize=(12,5))
-# data = sub_df.sort_values(by=['population'], ascending=True)[:100]
-# sns.lineplot(data=data, x='year', y='population', hue='country', legend=True)
-# st.write(visual2)
-
-# dict = {'year': raw_df['Year'], 'country':raw_df['Country'], 'yearly%change':raw_df['Yearly%Change']}
-# sub_df = pd.DataFrame(dict)
 
 
 
