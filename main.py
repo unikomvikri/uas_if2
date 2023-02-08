@@ -41,7 +41,7 @@ if option == 'Home' or option == '':
 
 elif option == 'Visualisasi':
     wrld_pop=pd.read_csv('population.csv')
-    st.title("Visualisasi data")
+    st.title("Perubahan Populasi negara dari tahun 1955-2020")
 
     fig = px.line(wrld_pop, x="Year", y="YearlyChange", color='Country',
               labels={
