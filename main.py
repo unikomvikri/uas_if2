@@ -51,7 +51,7 @@ elif option == 'Visualisasi':
     st.plotly_chart(fig)
 
     
-    st.header("20 negara teratas dengan tingkat perubahan terbanyak di tahun 2020")
+    st.header("20 negara teratas dengan tingkat persentase terbanyak di tahun 2020")
     data = sub_df[sub_df['year'] == 2020].sort_values(by=['yearly%change'], ascending=False)[:20]
     fig, ax = plt.subplots(figsize=(12,5))
     sns.barplot(data=data, x="country", y="yearly%change", ax=ax)
