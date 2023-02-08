@@ -46,8 +46,7 @@ elif option == 'Visualisasi':
     fig = px.line(wrld_pop, x="Year", y="YearlyChange", color='Country',
               labels={
                      "YearlyChange": "perubahan populasi",
-                 },
-             title="Perubahan Populasi Negara per tahun")
+                 })
 
     st.plotly_chart(fig)
 
