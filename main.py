@@ -47,7 +47,7 @@ elif option == 'Visualisasi':
               labels={
                      "YearlyChange": "perubahan populasi",
                  },
-             st.title="Perubahan Populasi Negara per tahun")
+             st.title=="Perubahan Populasi Negara per tahun")
 
     st.plotly_chart(fig)
 
